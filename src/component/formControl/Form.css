@@ -1,0 +1,100 @@
+.paper {
+  min-height: 300px;
+  margin: auto;
+  width: 23%;
+  padding: 10px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.85;
+
+}
+
+.button{
+  box-shadow: 
+  0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+  0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+#login-icon {
+  padding: 10px;
+  margin: auto 35%;
+}
+.login-button {
+  padding: 10px;
+}
+.field {
+  margin-top: 5px;
+}
+.remember {
+  font-size: 15px;
+  padding-left: 10px;
+}
+#fullname {
+  display: flex;
+}
+.form {
+  margin: 2%;
+  padding-left: 30px;
+}
+
+.bottom-link{
+  margin-top: 7px;
+  font-size: 14px;
+}
+.bottom-link a{
+  text-decoration: none;
+}
+#Form {
+  background-image: url(https://images.unsplash.com/photo-1544640808-32ca72ac7f37?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* ------------Reset Password-------------*/
+#reset-icon {
+  padding: 10px;
+  margin: auto 25%;
+}
+.field-reset{
+  padding-left: 20px;
+  width: 110%;
+}
+.reset-button{
+  margin-top: 10%;
+}
+
+/* -----------Register----------------- */
+#register-icon {
+  padding: 10px;
+  margin: auto 15%;
+}
+.register{
+padding-left: 14%;
+}
+
+/* -----------Confirm new password----------------- */
+
+#confirm-icon {
+  padding: 10px;
+  margin: auto 17%; 
+}
+
+
+#confirm-form .field{ 
+  padding-left: 10%;
+  width: 100%;
+}
+
+#confirm-form {
+  background-image: url(https://images.unsplash.com/photo-1544640808-32ca72ac7f37?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}

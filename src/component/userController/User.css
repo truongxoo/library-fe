@@ -1,0 +1,89 @@
+#card-user {
+  padding: 30px 30px 30px 0;
+}
+
+/* ---------------------------------------User Nook------- */
+.card-book{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.container {
+  margin-right: 14px;
+  margin-bottom: 30px;
+  background-color:white;
+  width: 270px;
+  height: 180px;
+  position: relative;
+  padding-top: 25px;
+  
+  
+}
+
+.card-book .card-image{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: black;
+  width: 130px;
+  height: 180px;
+  box-shadow: 
+    0px 2px 4px -1px rgba(5, 5, 5, 0.2),
+    0px 4px 5px 0px rgba(175, 32, 32, 0.14), 
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-book .subcontent{
+  background-color: white;
+  width: 270px;
+  height:  180px;
+  box-shadow: 
+    0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-book .description{
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 120px;
+  height: 142px;
+}
+.card-book .image{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-book .description-container {
+  padding: 10px;
+}
+
+.card-book .book-title {
+  margin: 10px 0;
+}
+
+.card-book .button {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+}
+
+.card-book .book-content {
+  font-size: 14px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.card-book .category{
+  position: absolute;
+  margin: 0;
+  left:45px;
+  bottom: 0;
+
+}

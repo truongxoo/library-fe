@@ -1,0 +1,40 @@
+#card-admin {
+  padding: 30px 30px 30px 0;
+}
+#dashboard #member{
+  background-color: rgb(198, 160, 229);
+  box-shadow: 
+  0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+  0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+#dashboard #book{
+  background-color: rgb(136, 109, 159);
+  box-shadow: 
+  0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+  0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+#dashboard #other{
+  background-color: rgb(97, 49, 136);
+  box-shadow: 
+  0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+  0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+/* -----------------------------------------------------------dashboard-box------------------------- */
+#dashboard-box{
+  width: 100%;
+  margin-top:30px;
+}
+.dashboard-box-card{
+  display: flex;
+  height: 80px;
+}
+.dashboard-box-card:first-child{
+  background-color: red;
+}
+.dashboard-box-card + CardAction{
+  background-color: rgb(88, 81, 81)(134, 94, 94);
+}
+
